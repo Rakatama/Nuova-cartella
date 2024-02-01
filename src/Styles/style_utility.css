@@ -1,0 +1,310 @@
+.utility_child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+#utility_title_div {
+  width: 60vw;
+  height: calc(60vw * 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.utility_title_text {
+  width: 35vw;
+  height: calc(35vw * 0.7);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Baumans";
+  color: #63ffe5;
+}
+.utility_title_text p {
+  width: 25vw;
+  height: calc(25vw * 0.44);
+  position: relative;
+  top: calc(25vw * 0.06);
+  left: calc(25vw * 0.05);
+  text-align: center;
+  margin-bottom: 0;
+  font-size: calc(1.05vw);
+}
+.utility_1 {
+  font-size: calc(6.4vw - 10%);
+  position: relative;
+  left: calc(100vw * -0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cocoa_title_div,
+#ethark_title_div,
+#customization_title_div,
+#summon_title_div {
+  width: 60vw;
+  height: calc(60vw * 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cocoa_title_text,
+.chronicles_title_text,
+.ethark_title_text,
+.customization_title_text,
+.summon_title_text {
+  width: 28vw;
+  height: calc(28vw * 0.5);
+  padding-top: 2em;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Baumans";
+  color: #63ffe5;
+}
+
+.cocoa_title_text p,
+.ethark_title_text p,
+.customization_title_text p,
+.summon_title_text p {
+  text-align: center;
+  font-size: calc(1.1vw);
+  position: relative;
+  top: calc(25vw * -0.1);
+  left: calc(25vw * 0.35);
+  margin-bottom: 0;
+}
+
+.chronicles_title_text p {
+  text-align: center;
+  font-size: calc(1.15vw);
+  position: relative;
+  top: calc(25vw * -0.09);
+  left: calc(25vw * 0.35);
+  margin-bottom: 0;
+}
+
+.Cocoa_1 {
+  font-size: calc(2.2vw - 5%);
+  position: relative;
+  top: calc(35vw * -0.18);
+  left: calc(35vw * 0.25);
+}
+
+.Cocoa_2 {
+  font-size: calc(2.2vw - 5%);
+  position: relative;
+  top: calc(35vw * -0.21);
+  left: calc(35vw * 0.25);
+}
+
+.ethark_title_text .Cocoa_1 {
+  top: calc(35vw * -0.18);
+}
+.customization_title_text .Cocoa_1 {
+  font-size: calc(3.2vw - 10%);
+  top: calc(35vw * -0.2);
+}
+
+.summon_title_text .Cocoa_1 {
+  top: calc(35vw * -0.18);
+}
+
+.chronicles_title_text .Cocoa_2 {
+  top: calc(35vw * -0.14);
+}
+
+@media (max-width: 1900px) {
+  .cocoa_title_text,
+  .chronicles_title_text,
+  .ethark_title_text,
+  .customization_title_text,
+  .summon_title_text {
+    padding-top: 0.1em;
+  }
+
+  .Cocoa_1 {
+    font-size: calc(2.6vw - 5%);
+    position: relative;
+    top: calc(35vw * -0.15);
+    left: calc(35vw * 0.25);
+  }
+  .Cocoa_2 {
+    font-size: calc(2vw - 5%);
+    position: relative;
+    top: calc(35vw * -0.15);
+    left: calc(35vw * 0.25);
+  }
+
+  .ethark_title_text .Cocoa_1 {
+    top: calc(35vw * -0.18);
+  }
+  .chronicles_title_text .Cocoa_2 {
+    top: calc(35vw * -0.12);
+  }
+  .customization_title_text .Cocoa_1 {
+    font-size: calc(3vw - 10%);
+    top: calc(35vw * -0.17);
+  }
+  .summon_title_text .Cocoa_1 {
+    top: calc(35vw * -0.14);
+    margin-bottom: 0.6em;
+  }
+}
+
+@media (max-width: 1500px) {
+  .ethark_title_text p {
+    top: calc(25vw * -0.1);
+  }
+
+  .ethark_title_text .Cocoa_1 {
+    top: calc(35vw * -0.15);
+  }
+
+  .cocoa_title_text p {
+    top: calc(25vw * -0.1);
+  }
+}
+
+@media (max-width: 1000px) {
+  .ethark_title_text p {
+    top: calc(100vw * -0.02);
+  }
+
+  .ethark_title_text .Cocoa_1 {
+    top: calc(35vw * -0.15);
+  }
+
+  .summon_title_text .Cocoa_1 {
+    top: calc(35vw * -0.155);
+    margin-bottom: 0.6em;
+  }
+}
+
+@media (max-width: 858px) {
+  .utility_child {
+    align-items: start;
+  }
+  #utility_title_div {
+    width: 100vw;
+    height: calc(100vw * 0.6);
+    top: calc(100vw * 0.12);
+    left: calc(100vw * 0.1);
+  }
+  .utility_title_text {
+    width: 50vw;
+    height: calc(50vw * 0.75);
+  }
+  .utility_title_text p {
+    width: 45vw;
+    height: calc(41vw * 0.4);
+    position: relative;
+    top: calc(100vw * 0.03);
+    text-align: center;
+    margin-bottom: 0;
+    font-size: calc(1.8vw);
+  }
+  .utility_1 {
+    font-size: calc(10vw - 10%);
+  }
+  #cocoa_title_div,
+  #ethark_title_div,
+  #customization_title_div,
+  #summon_title_div {
+    width: 100vw;
+    height: calc(100vw * 0.6);
+  }
+  .Cocoa_1 {
+    font-size: calc(3vw - 5%);
+    position: relative;
+    top: calc(100vw * -0.09);
+    left: calc(100vw * 0.15);
+    width: calc(45vw * 0.7);
+    display: flex;
+    justify-content: center;
+  }
+
+  .Cocoa_2 {
+    font-size: calc(3vw - 5%);
+    position: relative;
+    top: calc(100vw * -0.09);
+    left: calc(100vw * 0.15);
+    width: calc(45vw * 0.7);
+    display: flex;
+    justify-content: center;
+  }
+  .cocoa_title_text,
+  .ethark_title_text,
+  .customization_title_text,
+  .chronicles_title_text,
+  .summon_title_text {
+    width: 45vw;
+    height: calc(45vw * 0.5);
+  }
+  .cocoa_title_text p,
+  .ethark_title_text p,
+  .customization_title_text p,
+  .summon_title_text p {
+    width: 45vw;
+    height: calc(45vw * 0.5);
+    text-align: center;
+    font-size: calc(1.9vw);
+    position: relative;
+    left: calc(100vw * 0.15);
+    margin-bottom: 0;
+  }
+
+  .chronicles_title_text p {
+    width: 45vw;
+    height: calc(45vw * 0.5);
+    text-align: center;
+    font-size: calc(1.8vw);
+    position: relative;
+    left: calc(100vw * 0.15);
+    margin-bottom: 0;
+  }
+
+  .ethark_title_text .Cocoa_1 {
+    top: calc(100vw * -0.09);
+  }
+  .chronicles_title_text .Cocoa_2 {
+    top: calc(100vw * -0.09);
+  }
+  .customization_title_text .Cocoa_1 {
+    font-size: calc(5.4vw - 10%);
+    top: calc(100vw * -0.09);
+  }
+  .summon_title_text .Cocoa_1 {
+    top: calc(100vw * -0.08);
+  }
+
+}
+
+@media (max-width: 560px) {
+  .utility_title_text p,
+  .cocoa_title_text p,
+  .chronicles_title_text p,
+  .ethark_title_text p,
+  .customization_title_text p,
+  .summon_title_text p {
+    font-size: 10px !important;
+    overflow: scroll;
+  }
+  .utility_title_text p::-webkit-scrollbar,
+  .cocoa_title_text p::-webkit-scrollbar,
+  .chronicles_title_text p::-webkit-scrollbar,
+  .ethark_title_text p::-webkit-scrollbar,
+  .customization_title_text p::-webkit-scrollbar,
+  .summon_title_text p::-webkit-scrollbar{
+    display: none;
+  }
+}

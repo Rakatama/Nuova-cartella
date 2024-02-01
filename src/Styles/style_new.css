@@ -1,0 +1,700 @@
+.musica_div {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  position: fixed;
+  z-index: 10;
+  bottom: -40px;
+}
+.whitepaper_pdf{
+  margin-top: 30px;
+}
+.whitepaper_pdf::-webkit-scrollbar{
+  width: 10px;
+}
+
+.pdf-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.react-pdf__Page__canvas{
+  width: 858px !important;
+  height: calc(858px * 1.49696969697) !important;
+}
+.connect_wallet {
+  width: 480px;
+  height: 240px;
+  float: right;
+  position: relative;
+  top: -34px;
+  right: -80px;
+}
+
+.mint_updated {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.mt-84 {
+  margin-top: 84px;
+}
+.mt-85 {
+  margin-top: 84px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+#goldring_canvas {
+  width: 33.34vw !important;
+  height: calc((100vw * 0.3333) * 3.99) !important;
+}
+#intro_canvas {
+  width: 40vw !important;
+  height: 40vh !important;
+  position: relative;
+  left: calc(100vw * 0.3);
+  top: calc(100vw * 0.1);
+}
+.valarok_intro {
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 30;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+}
+#sabrian_canvas {
+  width: 33.33vw !important;
+  height: calc((100vw * 0.3333) * 3.99) !important;
+}
+#rangark_canvas {
+  width: 33.33vw !important;
+  height: calc((100vw * 0.3333) * 3.99) !important;
+}
+
+.rangark_div {
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.sabrian_div {
+  position: relative;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.goldring_div_updated {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#counter {
+  position: absolute;
+  top: calc((100vw * 0.3333) * 3.99 * 0.422);
+  left: ((100vw * 0.3333) / 2);
+  font-size: 80px;
+  color: #edba00;
+  user-select: none;
+  font-family: "Macondo Swash Caps", cursive;
+}
+#rangark_div_child {
+  position: absolute;
+  width: 22vw !important;
+  height: calc(100vw * 0.32) !important;
+  top: calc(100vw * 0.15);
+}
+#melian_div_child {
+  position: absolute;
+  width: 22vw !important;
+  height: calc(100vw * 0.32) !important;
+  top: calc(100vw * 0.65);
+  margin-left: calc(100vw * -0.02);
+}
+#rangark_img {
+  height: inherit;
+  width: inherit;
+}
+#counter_child {
+  position: relative;
+  left: 10px;
+}
+#melian_title {
+  position: relative;
+  color: #b5d4e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-family: "Baumans", cursive;
+  user-select: none;
+}
+#melian_title_mob {
+  position: relative;
+  bottom: 50px;
+  color: #b5d4e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-family: "Baumans", cursive;
+  user-select: none;
+}
+.slide_2 {
+  background-color: #000;
+  background-repeat: no-repeat;
+  font-family: "Baumans", cursive;
+  color: #484e74;
+  text-align: center;
+}
+.slide_2 img {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+}
+.slide_3 {
+  background-color: #000;
+  font-family: "Baumans", cursive;
+  color: #484e74;
+  text-align: center;
+}
+.slide_3 img {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+#mob-text {
+  position: absolute;
+  padding: 40px;
+  color: #b5d4e1;
+  font-family: "Macondo Swash Caps", cursive;
+  top: calc(100vw * 3.99 * 0.73);
+}
+
+.mint_updated {
+  display: flex;
+}
+
+.mint p {
+  position: absolute;
+  padding: 40px;
+  color: #b5d4e1;
+  font-family: "Macondo Swash Caps", cursive;
+  top: calc(100vw * 0.3333 * 3.99 * 0.76);
+}
+
+.melian_updated {
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Macondo Swash Caps", cursive;
+  position: relative;
+}
+.header_ul_child {
+  margin-top: 10px;
+}
+.atrium{
+  cursor: not-allowed;
+}
+#atrium_child {
+  position: absolute;
+  top: 9px;
+}
+.dropdown {
+  display: none;
+}
+.header_mob{
+  margin-top: -75px !important;
+  z-index: 5;
+}
+
+@media (max-height: 700px) {
+  nav ul li {
+    line-height: 40px;
+  }
+  .connect_wallet{
+    height: 125px !important;
+    width: 250px !important;
+  }
+  .atrium_child2{
+    top: -25px;
+  }
+  .header_ul{
+    overflow: hidden;
+  }
+}
+
+@media (max-height: 670px) {
+  .upper_connect_wallet{
+    margin-top: -30px !important;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .mt-84 {
+    margin-top: 63px;
+  }
+  .mt-85 {
+    margin-top: 63px;
+  }
+  .whitepaper_pdf{
+    margin-top: 10px;
+  }
+  .connect_wallet {
+    width: 300px;
+    height: 150px;
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 0px;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  #counter {
+    font-size: 70px;
+    top: calc((100vw * 0.3333) * 3.99 * 0.421);
+  }
+}
+@media only screen and (max-width: 1700px) {
+  .mint .rangark {
+    height: 250vh;
+  }
+  .mint .sabrian {
+    height: 250vh;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .header_ul_child {
+    margin-top: 20px;
+  }
+  #atrium_child {
+    top: 19px;
+  }
+  .whitepaper_pdf{
+    margin-top: 26px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  #counter {
+    top: calc((100vw * 0.3333) * 3.99 * 0.422);
+    font-size: 60px;
+  }
+  #counter_child {
+    position: relative;
+    left: 8px;
+  }
+  #melian_title {
+    font-size: 80px;
+  }
+  .musica_div {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  #counter {
+    font-size: 60px;
+  }
+  .mt-84 {
+    margin-top: 80px;
+  }
+  .mt-85 {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  #counter {
+    font-size: 50px;
+  }
+  #melian_title {
+    font-size: 59px;
+  }
+  .mint p {
+    padding: 40px;
+    color: #b5d4e1;
+    font-family: "Macondo Swash Caps", cursive;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  #counter {
+    font-size: 45px;
+  }
+  #counter_child {
+    position: relative;
+    left: 6px;
+  }
+  .mint .rangark {
+    height: 200vh;
+  }
+  .mint .sabrian {
+    height: 200vh;
+  }
+
+  .mint p {
+    font-size: 12px;
+  }
+  #intro_canvas {
+    width: 50vw !important;
+    height: 50vh !important;
+  }
+}
+
+@media (max-width: 1287px) and (min-width: 858px) {
+  .hide_rf {
+    display: none;
+  }
+  .dropdown {
+    display: inline;
+    position: absolute;
+    right: 0;
+  }
+}
+@media (max-width: 1287px) and (min-width: 1051px) {
+  .hide_utilities_dropdown {
+    display: none;
+  }
+}
+@media (max-width: 1050px) and (min-width: 858px) {
+  .hide_utilities_dropdown {
+    display: block;
+  }
+  .hide_utilities{
+    display: none;
+  }
+}
+@media (min-width: 786px) and (max-width: 858px) {
+  .mint p {
+    margin-top: -85px;
+  }
+}
+/* @media (max-width: 768px) {
+
+} */
+
+@media only screen and (max-width: 1000px) {
+  #counter {
+    font-size: 38px;
+  }
+  .mint p {
+    font-size: 11px;
+  }
+  #intro_canvas {
+    width: 55vw !important;
+    height: 55vh !important;
+    left: calc(100vw * 0.22);
+  }
+  #atrium_child{
+    font-size: 20px;
+  }
+  .atrium_child2{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .mint p {
+    font-size: 9.5px;
+  }
+}
+
+@media only screen and (max-width: 858px) {
+  .musica_div {
+    height: 130px;
+    width: 130px;
+    top: -30px;
+    left: 10px;
+  }
+  #atrium_child {
+    position: relative;
+    top: 0;
+  }
+  #counter {
+    font-size: 32px;
+  }
+  .mt_84 {
+    margin-top: 0 !important;
+  }
+  .musica_div {
+    height: 130px;
+    width: 130px;
+  }
+  .mt-84 {
+    margin-top: 0;
+  }
+
+  .mt-85 {
+    margin-top: 0;
+  }
+  .header_ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    top: 0;
+  }
+
+  .connect_wallet {
+    margin-left: calc(100vw * 0.015);
+    margin-top: 90px;
+  }
+  .header_ul_border {
+    width: 100%;
+    height: 10%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header_ul_border_child {
+    width: 100%;
+    background: #fff;
+    height: 2px;
+  }
+  .header_ul_border_child_1 {
+    border: 2px solid white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    background-color: #000;
+  }
+  .header_ul_buttons_div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .header_ul_buttons {
+    background: #000;
+    color: #fff;
+    border: none;
+  }
+  .react-pdf__Page__canvas{
+    width: 100vw !important;
+    height: calc(100vw * 1.49696969697) !important;
+  }
+  .pdf-page{
+    overflow-x: hidden;
+  }
+  .whitepaper_pdf{
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  #goldring_canvas {
+    width: 100vw !important;
+    height: calc(100vw * 4) !important;
+  }
+  #sabrian_canvas {
+    width: 100vw !important;
+    height: calc(100vw * 4) !important;
+  }
+  #rangark_canvas {
+    width: 100vw !important;
+    height: calc(100vw * 4) !important;
+  }
+  #mob-text {
+    padding: 40px;
+    font-size: 18px;
+  }
+  #melian_title {
+    color: #b5d4e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: "Baumans", cursive;
+  }
+  #counter {
+    font-size: 80px;
+    top: calc(100vw * 3.99 * 0.427);
+  }
+  #counter_child {
+    position: relative;
+    left: 12px;
+  }
+  .mint .rangark {
+    height: 200vh;
+  }
+  .mint .sabrian {
+    height: 200vh;
+  }
+  .melian-mint-text {
+    margin-top: 180%;
+  }
+  #melian_text {
+    font-size: 1.6rem;
+  }
+  #rangark_div_child {
+    width: 70vw !important;
+    height: calc(100vw * 1.2) !important;
+    top: calc(100vw * 0.4);
+  }
+  #melian_div_child {
+    width: 50vw !important;
+    height: calc(100vw * 0.8) !important;
+    top: calc(100vw * 2);
+    margin-left: calc(100vw * -0.04);
+  }
+
+  .mt-85 {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 700px) {
+  #counter {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #melian_text {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #counter {
+    font-size: 60px;
+  }
+  #counter_child {
+    left: 10px;
+  }
+  #intro_canvas {
+    width: 60vw !important;
+    height: 60vh !important;
+    left: calc(100vw * 0.2);
+    top: calc(100vw * 0.2);
+  }
+
+  #melian_text {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #melian_text {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 523px) {
+  #mob-text {
+    font-size: 15px;
+  }
+  #counter_child {
+    left: 8px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #counter {
+    font-size: 48px;
+  }
+  .team_new {
+    margin-top: -30vw;
+  }
+  #melian_title_mob {
+    font-size: 75px;
+  }
+  .musica_div {
+    height: 120px;
+    width: 120px;
+    top: -20px;
+    left: 10px;
+  }
+  #intro_canvas {
+    width: 70vw !important;
+    height: 70vh !important;
+    left: calc(100vw * 0.15);
+  }
+  #melian_text {
+    font-size: 1rem;
+  }
+
+  .melian-mint-text {
+    margin-top: 170%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #counter {
+    font-size: 40px;
+    top: calc(100vw * 3.99 * 0.425);
+  }
+  #counter_child {
+    left: 6px;
+  }
+  #mob-text {
+    font-size: 12px;
+    top: calc(100vw * 3.99 * 0.72);
+  }
+  #melian_title_mob {
+    font-size: 50px;
+    top: 0;
+  }
+  .connect_wallet {
+    margin-top: 60px !important;
+  }
+
+  #melian_text {
+    font-size: 1rem;
+  }
+
+  #melian_title {
+    font-size: 60px;
+  }
+
+}
+
+@media only screen and (max-width: 374px) {
+  #melian_text {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 324px) {
+  #melian_text {
+    font-size: 0.7rem;
+  }
+  #melian_title {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #counter {
+    font-size: 35px;
+  }
+  #mob-text {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 285px) {
+  #melian_text {
+    font-size: 0.6rem;
+  }
+  #melian_title {
+    font-size: 20px;
+  }
+}
